@@ -18,27 +18,17 @@ Mobile.startApplication('/Users/polinakhomishina/Downloads/3.2.0-app-release.apk
 Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - SKIP'), 0)
 
 Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-
+Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
 Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
 
 Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-
 Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-
 Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-
 Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-
 Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-
 Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
 
 Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.TextView0 - CREATE NEW WALLET'), 0)
@@ -47,19 +37,5 @@ Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.TextView0 - CREA
 
 Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - SKIP'), 0)
 
-Mobile.scrollToText('Manage Assets', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - MANAGE ASSETS'), 0)
-
-Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - ADD NEW ASSET'), 0)
-
-Mobile.tap(findTestObject('Smoke test/General/android.widget.EditText0 - Address'), 0)
-
-Mobile.sendKeys(findTestObject('Smoke test/General/android.widget.EditText0 - Address'), GlobalVariable.omix_address)
-
-Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - ADD ASSET'), 0)
-
-Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - VIEW ASSET'), 0)
-
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Smoke test/General/MAIN - MY WALLETS'), 0)
 

@@ -13,25 +13,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('First tests/General/my wallets icon'), 0)
+Mobile.tap(findTestObject('Smoke test/General/MAIN - MY WALLETS'), 0)
 
 Mobile.scrollToText('ADD NEW WALLET')
 
-Mobile.tap(findTestObject('First tests/Wallets/android.widget.TextView0 - ADD NEW WALLET'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - ADD NEW WALLET'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/android.widget.TextView0 - IMPORT'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - IMPORT'), 0)
 
-Mobile.tap(findTestObject('First tests/General/android.widget.TextView0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - Address key mnemonic'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), 0)
 
-Mobile.sendKeys(findTestObject('First tests/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), GlobalVariable.privkey_stone)
+Mobile.sendKeys(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), GlobalVariable.privkey_stone)
 
-Mobile.tap(findTestObject('First tests/Wallets/(enter)android.widget.TextView0 - OK'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.TextView0 - OK'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/(finish)android.widget.TextView0 - IMPORT'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/(finish)android.widget.TextView0 - IMPORT'), 0)
 
-Mobile.tap(findTestObject('First tests/General/android.widget.Button0 - GO TO WALLET'), 0)
+Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - GO TO WALLET'), 0)
 
-Mobile.verifyElementExist(findTestObject('First tests/General/android.widget.Button0 - SEND'), 0)
+Mobile.verifyElementExist(findTestObject('Smoke test/General/android.widget.Button0 - SEND'), 0)
 

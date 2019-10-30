@@ -53,6 +53,12 @@
       <testCaseId>Test Cases/Main/Import/3.2 Add XPRV to Address wallet</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>02ca9ed4-d0fa-4203-8b63-aab2480c6f01</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main/Import/4. Import Private key</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>a32de14c-eeb8-4fd4-a70d-72aa4886cca7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -79,4 +79,24 @@
       <initValue>'trap remind weapon moon hospital family pottery creek grow'</initValue>
       <name>mnem9</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Users/polinakhomishina/Downloads/3.2.1-app-debug.apk'</initValue>
+      <name>app</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'neither flash lens'</initValue>
+      <name>mnem_advanced</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'153153'</initValue>
+      <name>passphrase_advanced</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'m/44\'/60\'/1\'/0'</initValue>
+      <name>dp_advanced</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

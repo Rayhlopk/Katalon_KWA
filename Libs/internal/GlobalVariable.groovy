@@ -84,6 +84,26 @@ public class GlobalVariable {
      */
     public static Object mnem9
      
+    /**
+     * <p></p>
+     */
+    public static Object app
+     
+    /**
+     * <p></p>
+     */
+    public static Object mnem_advanced
+     
+    /**
+     * <p></p>
+     */
+    public static Object passphrase_advanced
+     
+    /**
+     * <p></p>
+     */
+    public static Object dp_advanced
+     
 
     static {
         try {
@@ -106,6 +126,10 @@ public class GlobalVariable {
             address_dragon = selectedVariables['address_dragon']
             mnem6 = selectedVariables['mnem6']
             mnem9 = selectedVariables['mnem9']
+            app = selectedVariables['app']
+            mnem_advanced = selectedVariables['mnem_advanced']
+            passphrase_advanced = selectedVariables['passphrase_advanced']
+            dp_advanced = selectedVariables['dp_advanced']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

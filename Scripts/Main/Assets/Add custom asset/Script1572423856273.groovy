@@ -15,19 +15,19 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.scrollToText('MANAGE ASSETS', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('First tests/General/android.widget.TextView0 - MANAGE ASSETS'), 0)
+Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - MANAGE ASSETS'), 0)
 
-Mobile.tap(findTestObject('First tests/General/android.widget.TextView0 - ADD NEW ASSET'), 0)
+Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - ADD NEW ASSET'), 0)
 
-Mobile.tap(findTestObject('First tests/General/android.widget.EditText0 - Address'), 0)
+Mobile.tap(findTestObject('Smoke test/General/android.widget.EditText0 - Address'), 0)
 
-Mobile.sendKeys(findTestObject('First tests/General/android.widget.EditText0 - Address'), GlobalVariable.omix_address)
+Mobile.sendKeys(findTestObject('Smoke test/General/android.widget.EditText0 - Address'), GlobalVariable.omix_address)
 
-Mobile.tap(findTestObject('First tests/General/android.widget.TextView0 - ADD ASSET'), 0)
+Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - ADD ASSET'), 0)
 
-Mobile.tap(findTestObject('First tests/General/android.widget.Button0 - VIEW ASSET'), 0)
+Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - VIEW ASSET'), 0)
 
-Mobile.tap(findTestObject('First tests/Navigate Back'), 0)
+Mobile.tap(findTestObject('Smoke test/Navigate Back'), 0)
 
-Mobile.tap(findTestObject('First tests/Navigate Back'), 0)
+Mobile.tap(findTestObject('Smoke test/Navigate Back'), 0)
 

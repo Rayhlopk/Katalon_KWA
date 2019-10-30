@@ -13,54 +13,54 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('First tests/General/my wallets icon'), 0)
+Mobile.tap(findTestObject('Smoke test/General/MAIN - MY WALLETS'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/android.widget.TextView0 - ADD NEW WALLET'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - ADD NEW WALLET'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/android.widget.TextView0 - IMPORT'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - IMPORT'), 0)
 
-Mobile.tap(findTestObject('First tests/General/android.widget.TextView0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - Address key mnemonic'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), 0)
 
-Mobile.sendKeys(findTestObject('First tests/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), GlobalVariable.mnemonic_dragon)
+Mobile.sendKeys(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), GlobalVariable.mnemonic_dragon)
 
-Mobile.tap(findTestObject('First tests/Wallets/(enter)android.widget.TextView0 - OK'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.TextView0 - OK'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/(finish)android.widget.TextView0 - IMPORT'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/(finish)android.widget.TextView0 - IMPORT'), 0)
 
-Mobile.tap(findTestObject('First tests/General/android.widget.Button0 - GO TO WALLET'), 0)
+Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - GO TO WALLET'), 0)
 
-Mobile.tap(findTestObject('First tests/General/my wallets icon'), 0)
+Mobile.tap(findTestObject('Smoke test/General/MAIN - MY WALLETS'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/wallet menu'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/wallet menu'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/android.widget.TextView0 - Enable multi-address mode'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - Enable multi-address mode'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/android.widget.Button0 - ENABLE'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.Button0 - ENABLE'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/android.widget.TextView0 - ADD NEW ADDRESS'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - ADD NEW ADDRESS'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/my wallet back button'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/my wallet back button'), 0)
 
-Mobile.tap(findTestObject('First tests/Wallets/my wallets back button'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/my wallets back button'), 0)
 
-Mobile.tap(findTestObject('First tests/General/android.widget.Button0 - SEND'), 0)
+Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - SEND'), 0)
 
-Mobile.tap(findTestObject('First tests/Send/send - asset'), 0)
+Mobile.tap(findTestObject('Smoke test/Send/send - asset'), 0)
 
-Mobile.tap(findTestObject('First tests/Send/android.widget.TextView0 - Jibrel Network Token'), 0)
+Mobile.tap(findTestObject('Smoke test/Send/android.widget.TextView0 - Jibrel Network Token'), 0)
 
-Mobile.tap(findTestObject('First tests/Send/send - recipient'), 0)
+Mobile.tap(findTestObject('Smoke test/Send/send - recipient'), 0)
 
-Mobile.tap(findTestObject('First tests/Send/recipient - My Wallet 1'), 0)
+Mobile.tap(findTestObject('Smoke test/Send/recipient - My Wallet 1'), 0)
 
-Mobile.tap(findTestObject('First tests/Send/send - amount'), 0)
+Mobile.tap(findTestObject('Smoke test/Send/send - amount'), 0)
 
-Mobile.sendKeys(findTestObject('First tests/Send/send - amount - paste'), '0.01')
+Mobile.sendKeys(findTestObject('Smoke test/Send/send - amount - paste'), '0.01')
 
-Mobile.tap(findTestObject('First tests/Send/send button'), 0)
+Mobile.tap(findTestObject('Smoke test/Send/send button'), 0)
 
-Mobile.tap(findTestObject('First tests/Navigate Back'), 0)
+Mobile.tap(findTestObject('Smoke test/Navigate Back'), 0)
 
 

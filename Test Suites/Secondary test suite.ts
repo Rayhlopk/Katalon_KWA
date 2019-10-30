@@ -26,7 +26,7 @@
       <guid>c040a38b-319b-4e51-ab87-666cb47975b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main/Add custom asset</testCaseId>
+      <testCaseId>Test Cases/Main/Assets/Add custom asset</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8c3066fc-c59f-4b38-bfa3-7b3fd72d54a6</guid>
@@ -86,6 +86,6 @@
       <guid>2e850740-9975-4468-9cf0-14da2245243a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Main/Debug - Create wallet short</testCaseId>
+      <testCaseId>Test Cases/Main/2 - Debug - Create wallet short</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

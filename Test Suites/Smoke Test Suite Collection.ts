@@ -13,11 +13,30 @@
             <runConfigurationData>
                <entry>
                   <key>deviceName</key>
-                  <value>samsung SM-G975F (Android 9)</value>
+                  <value>Xiaomi Redmi 4A (Android 7.1.2)</value>
                </entry>
                <entry>
                   <key>deviceId</key>
-                  <value>R58M167DG2R</value>
+                  <value>728996657d94</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Main - Import and Unlock wallets</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>Google Pixel 3 (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>89EX0904A</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
