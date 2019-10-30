@@ -1,12 +1,8 @@
 package internal
 
 import com.kms.katalon.core.configuration.RunConfiguration
-import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
-import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
-import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import com.kms.katalon.core.main.TestCaseMain
+
 
 /**
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
@@ -33,18 +29,86 @@ public class GlobalVariable {
      */
     public static Object G_ShortTimeOut
      
+    /**
+     * <p></p>
+     */
+    public static Object mnem3
+     
+    /**
+     * <p></p>
+     */
+    public static Object mnemonic_dragon
+     
+    /**
+     * <p></p>
+     */
+    public static Object mnem12
+     
+    /**
+     * <p></p>
+     */
+    public static Object address_stone
+     
+    /**
+     * <p></p>
+     */
+    public static Object privkey_stone
+     
+    /**
+     * <p></p>
+     */
+    public static Object xpub_dragon
+     
+    /**
+     * <p></p>
+     */
+    public static Object xprv_dragon
+     
+    /**
+     * <p></p>
+     */
+    public static Object omix_address
+     
+    /**
+     * <p></p>
+     */
+    public static Object address_dragon
+     
+    /**
+     * <p></p>
+     */
+    public static Object mnem6
+     
+    /**
+     * <p></p>
+     */
+    public static Object mnem9
+     
 
     static {
-        def allVariables = [:]        
-        allVariables.put('default', ['G_Timeout' : 10, 'G_NotificationMessage' : 'Your message has been sent. View message', 'G_AndroidApp' : 'androidapp/APIDemos.apk', 'G_ShortTimeOut' : 5])
-        
-        String profileName = RunConfiguration.getExecutionProfile()
-        
-        def selectedVariables = allVariables[profileName]
-        G_Timeout = selectedVariables['G_Timeout']
-        G_NotificationMessage = selectedVariables['G_NotificationMessage']
-        G_AndroidApp = selectedVariables['G_AndroidApp']
-        G_ShortTimeOut = selectedVariables['G_ShortTimeOut']
-        
+        try {
+            def selectedVariables = TestCaseMain.getGlobalVariables("default")
+			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
+            selectedVariables += RunConfiguration.getOverridingParameters()
+    
+            G_Timeout = selectedVariables['G_Timeout']
+            G_NotificationMessage = selectedVariables['G_NotificationMessage']
+            G_AndroidApp = selectedVariables['G_AndroidApp']
+            G_ShortTimeOut = selectedVariables['G_ShortTimeOut']
+            mnem3 = selectedVariables['mnem3']
+            mnemonic_dragon = selectedVariables['mnemonic_dragon']
+            mnem12 = selectedVariables['mnem12']
+            address_stone = selectedVariables['address_stone']
+            privkey_stone = selectedVariables['privkey_stone']
+            xpub_dragon = selectedVariables['xpub_dragon']
+            xprv_dragon = selectedVariables['xprv_dragon']
+            omix_address = selectedVariables['omix_address']
+            address_dragon = selectedVariables['address_dragon']
+            mnem6 = selectedVariables['mnem6']
+            mnem9 = selectedVariables['mnem9']
+            
+        } catch (Exception e) {
+            TestCaseMain.logGlobalVariableError(e)
+        }
     }
 }

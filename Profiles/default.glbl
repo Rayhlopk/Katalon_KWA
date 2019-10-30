@@ -24,4 +24,59 @@
       <initValue>5</initValue>
       <name>G_ShortTimeOut</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'neither flash lens'</initValue>
+      <name>mnem3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'dragon mobile shed clump earn sight toilet urge voice topple silent ability execute moon river gas frown chunk dial pistol outside achieve chaos warfare'</initValue>
+      <name>mnemonic_dragon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'remove treat mixed oblige tomorrow pipe thing entire horror short invest find'</initValue>
+      <name>mnem12</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0x309d70b6f623F059fb6E14356cD32fa65E797C78'</initValue>
+      <name>address_stone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0x45e5dd0724253ce9aa0e882405495e6b86ca5ad14651556b33f531bc55ce792c'</initValue>
+      <name>privkey_stone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'xpub6EP3iQFTwUSqLD9EEYLXxihK43cg7rnajh3Z9cQKDfDgM8vWJdXh1oVApPoNuDnGxpZarePad7PGF7XSLbaCpJ4BsmmmnGtiso9CPcqAY48'</initValue>
+      <name>xpub_dragon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'xprvA1PhJtia76tY7j4m8WoXbakaW1nBiQ4jNU7xMDzhfKghULbMm6DSU1Agy8pk6BZUMeJ8ELvka4muf56SDiQSpg6tkJEETAbEbhB9rPP1hBK'</initValue>
+      <name>xprv_dragon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0xb5dbc6d3cf380079df3b27135664b6bcf45d1869'</initValue>
+      <name>omix_address</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0xFdE25413D1e97801a36C4b7dfFd06fe87fcbb396'</initValue>
+      <name>address_dragon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'shiver wrong notable cargo boat powder'</initValue>
+      <name>mnem6</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'trap remind weapon moon hospital family pottery creek grow'</initValue>
+      <name>mnem9</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
