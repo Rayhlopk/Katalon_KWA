@@ -17,19 +17,19 @@ Mobile.tap(findTestObject('Smoke test/General/MAIN - MY WALLETS'), 0)
 
 Mobile.scrollToText('ADD NEW WALLET')
 
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - ADD NEW WALLET'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/ADD NEW WALLET'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - IMPORT'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/Add new wallet - IMPORT'), 0)
 
 Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - Address key mnemonic'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/input - Address key mnemonic'), 0)
 
-Mobile.sendKeys(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), GlobalVariable.mnem12)
+Mobile.sendKeys(findTestObject('Smoke test/Wallets/input - Address key mnemonic'), GlobalVariable.mnem12)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.TextView0 - OK'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/wallet import - OK'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(finish)android.widget.TextView0 - IMPORT'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/button - finish IMPORT'), 0)
 
 Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - GO TO WALLET'), 0)
 

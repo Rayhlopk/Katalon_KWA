@@ -13,26 +13,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - SEND'), 0)
+Mobile.tap(findTestObject('App/General/android.widget.Button0 - SEND'), 0)
 
-Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - UNLOCK FEATURES'), 0)
+Mobile.tap(findTestObject('App/General/android.widget.Button0 - UNLOCK FEATURES'), 0)
 
-Mobile.sendKeys(findTestObject('Smoke test/General/android.widget.EditText0 - Backup phrase'), GlobalVariable.xprv_dragon)
+Mobile.sendKeys(findTestObject('App/General/android.widget.EditText0 - Backup phrase'), GlobalVariable.xprv_stone)
 
-Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - UNLOCK'), 0)
+Mobile.tap(findTestObject('App/General/android.widget.TextView0 - UNLOCK'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - GO TO SEND'), 0)
+Mobile.tap(findTestObject('App/General/android.widget.Button0 - GO TO SEND'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Navigate Back'), 0)
+Mobile.tap(findTestObject('App/General/Navigate Back'), 0)
+
+Mobile.verifyElementExist(findTestObject('App/General/android.widget.Button0 - SEND'), 0)

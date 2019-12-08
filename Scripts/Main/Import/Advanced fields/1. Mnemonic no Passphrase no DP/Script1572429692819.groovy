@@ -45,13 +45,13 @@ Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - IMPORT
 
 Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - Address key mnemonic'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/input - Address key mnemonic'), 0)
 
-Mobile.sendKeys(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), GlobalVariable.mnem_advanced)
+Mobile.sendKeys(findTestObject('Smoke test/Wallets/input - Address key mnemonic'), GlobalVariable.mnem_advanced)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.TextView0 - OK'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/wallet import - OK'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(finish)android.widget.TextView0 - IMPORT'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/button - finish IMPORT'), 0)
 
 Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - GO TO WALLET'), 0)
 
@@ -61,11 +61,21 @@ Mobile.tap(findTestObject('Smoke test/General/MAIN - MY WALLETS'), 0)
 
 Mobile.tap(findTestObject('Smoke test/Wallets/wallet menu'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - Enable multi-address mode'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/Enable multi-address mode'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.Button0 - ENABLE'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/button - ENABLE'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - ADD NEW ADDRESS'), 0)
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - ADD NEW ADDRESS'), 0)
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - ADD NEW ADDRESS'), 0)
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - ADD NEW ADDRESS'), 0)
+Mobile.tap(findTestObject('Smoke test/Wallets/Address Menu'), 0)
+
+Mobile.tap(findTestObject('Smoke test/Wallets/Copy address'), 0)
+
+WebUI.verifyEqual(null, address1)
+
+Mobile.tap(findTestObject('Smoke test/Wallets/ADD NEW ADDRESS'), 0)
+
+Mobile.tap(findTestObject('Smoke test/Wallets/ADD NEW ADDRESS'), 0)
+
+Mobile.tap(findTestObject('Smoke test/Wallets/ADD NEW ADDRESS'), 0)
+
+Mobile.tap(findTestObject('Smoke test/Wallets/ADD NEW ADDRESS'), 0)
+

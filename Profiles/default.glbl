@@ -6,6 +6,11 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'/Users/polinakhomishina/Downloads/3.3.6-app-release.apk'</initValue>
+      <name>app</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>10</initValue>
       <name>G_Timeout</name>
    </GlobalVariableEntity>
@@ -26,23 +31,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'neither flash lens'</initValue>
-      <name>mnem3</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'dragon mobile shed clump earn sight toilet urge voice topple silent ability execute moon river gas frown chunk dial pistol outside achieve chaos warfare'</initValue>
-      <name>mnemonic_dragon</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'remove treat mixed oblige tomorrow pipe thing entire horror short invest find'</initValue>
-      <name>mnem12</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'0x309d70b6f623F059fb6E14356cD32fa65E797C78'</initValue>
-      <name>address_stone</name>
+      <initValue>'stone topic lobster ten length wood animal brush hero bicycle camp element blouse timber there normal disorder hand poem husband hockey north prison adapt'</initValue>
+      <name>mnemonic_stone</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -51,13 +41,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'xpub6EP3iQFTwUSqLD9EEYLXxihK43cg7rnajh3Z9cQKDfDgM8vWJdXh1oVApPoNuDnGxpZarePad7PGF7XSLbaCpJ4BsmmmnGtiso9CPcqAY48'</initValue>
-      <name>xpub_dragon</name>
+      <initValue>'xpub6E6rUyyJW7wBbtiqsrzxj7pJLPxnfRk368NFf2a3DDgp3DDShnLf1DH3qKb3fStyTwgxhZAdenDvhRc94FXeCwMP7hLhpkTE7hkNqkqGpJ3'</initValue>
+      <name>xpub_stone</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'xprvA1PhJtia76tY7j4m8WoXbakaW1nBiQ4jNU7xMDzhfKghULbMm6DSU1Agy8pk6BZUMeJ8ELvka4muf56SDiQSpg6tkJEETAbEbhB9rPP1hBK'</initValue>
-      <name>xprv_dragon</name>
+      <initValue>'xprvA17W5USQfkNtPQeNmqTxMysZnN8JFy2BiuSereARet9qAQtJAF2QTQxZz1kodMY7KVXJckqJL16Gv91JQeQnNKNNPhSHyg9ued7yspfeWEd'</initValue>
+      <name>xprv_stone</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -66,28 +56,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0xFdE25413D1e97801a36C4b7dfFd06fe87fcbb396'</initValue>
-      <name>address_dragon</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'shiver wrong notable cargo boat powder'</initValue>
-      <name>mnem6</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'trap remind weapon moon hospital family pottery creek grow'</initValue>
-      <name>mnem9</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'/Users/polinakhomishina/Downloads/3.2.1-app-debug.apk'</initValue>
-      <name>app</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'neither flash lens'</initValue>
-      <name>mnem_advanced</name>
+      <initValue>'0x309d70b6f623F059fb6E14356cD32fa65E797C78'</initValue>
+      <name>address_stone</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -98,5 +68,20 @@
       <description></description>
       <initValue>'m/44\'/60\'/1\'/0'</initValue>
       <name>dp_advanced</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Private Key'</initValue>
+      <name>name_pk</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'new_name'</initValue>
+      <name>name_mnem</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'XPRV'</initValue>
+      <name>name_XPRV</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

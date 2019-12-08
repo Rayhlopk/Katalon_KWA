@@ -12,30 +12,16 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-Mobile.startApplication('/Users/polinakhomishina/Downloads/3.2.0-app-release.apk', true)
+Mobile.startApplication(GlobalVariable.app, true)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - SKIP'), 0)
+Mobile.verifyElementExist(findTestObject('Debug/android.widget.TextView0 - A simple fast and secure mobile wallet for Ethereum and all ERC-20 tokens.'), 
+    0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+var_text = Mobile.getAttribute(findTestObject('Debug/android.widget.TextView0 - A simple fast and secure mobile wallet for Ethereum and all ERC-20 tokens.'), 
+    'text', 5)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
-
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.TextView0 - CREATE NEW WALLET'), 0)
-
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.TextView0 - CREATE'), 0)
-
-Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - SKIP'), 0)
-
-Mobile.tap(findTestObject('Smoke test/General/MAIN - MY WALLETS'), 0)
+Mobile.verifyEqual(GlobalVariable.app, var_text)
 

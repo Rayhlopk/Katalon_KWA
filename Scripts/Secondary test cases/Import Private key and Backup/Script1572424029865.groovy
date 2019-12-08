@@ -15,73 +15,73 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('/Users/polinakhomishina/Downloads/3.2.0-app-release.apk', true)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - SKIP'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - SKIP'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - IMPORT WALLET'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - IMPORT WALLET'), 0)
 
-Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('App/General/android.widget.TextView0 - Address key mnemonic'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('App/Wallets/input - Address key mnemonic'), 0)
 
-Mobile.sendKeys(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), GlobalVariable.privkey_stone)
+Mobile.sendKeys(findTestObject('App/Wallets/input - Address key mnemonic'), GlobalVariable.privkey_stone)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.TextView0 - OK'), 0)
+Mobile.tap(findTestObject('App/Wallets/wallet import - OK'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(finish)android.widget.TextView0 - IMPORT'), 0)
+Mobile.tap(findTestObject('App/Wallets/button - finish IMPORT'), 0)
 
-Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - GO TO WALLET'), 0)
+Mobile.tap(findTestObject('App/General/android.widget.Button0 - GO TO WALLET'), 0)
 
-Mobile.tap(findTestObject('Smoke test/General/MAIN - MY WALLETS'), 0)
+Mobile.tap(findTestObject('App/General/MAIN - MY WALLETS'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/wallet menu'), 0)
+Mobile.tap(findTestObject('App/Wallets/wallet menu'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - Backup wallet'), 0)
+Mobile.tap(findTestObject('App/Wallets/Wallet menu - Backup wallet'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.CheckBox0 - I understand that all my assets might be lost if my wallet backup phrase is compromised.'), 0)
+Mobile.tap(findTestObject('App/Onboarding/backup - checkbox 2'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.CheckBox0 - I understand that I will lose access to my funds if I lose wallet backup phrase.'), 0)
+Mobile.tap(findTestObject('App/Onboarding/backup - checkbox 1'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - CONTINUE'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - CONTINUE'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - COPY TO CLIPBOARD'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - COPY TO CLIPBOARD'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - DONE'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - DONE'), 0)
 
 
 Mobile.closeApplication()
