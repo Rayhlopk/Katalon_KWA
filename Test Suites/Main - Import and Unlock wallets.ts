@@ -56,7 +56,7 @@
       <guid>02ca9ed4-d0fa-4203-8b63-aab2480c6f01</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main/Import/4. Import Private key</testCaseId>
+      <testCaseId>Test Cases/Main/Import/4.1 Import Private key</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a32de14c-eeb8-4fd4-a70d-72aa4886cca7</guid>
@@ -111,5 +111,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Main/Import/10.2 Import Mnemonic from start</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>83c602ec-a449-42e3-93c3-29b0b0800e19</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main/Import/Rename wallet</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

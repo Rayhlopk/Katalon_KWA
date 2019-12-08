@@ -12,6 +12,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object app
+     
+    /**
+     * <p></p>
+     */
     public static Object G_Timeout
      
     /**
@@ -32,17 +37,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object mnem3
-     
-    /**
-     * <p></p>
-     */
     public static Object mnemonic_dragon
-     
-    /**
-     * <p></p>
-     */
-    public static Object mnem12
      
     /**
      * <p></p>
@@ -77,32 +72,27 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object mnem6
-     
-    /**
-     * <p></p>
-     */
-    public static Object mnem9
-     
-    /**
-     * <p></p>
-     */
-    public static Object app
-     
-    /**
-     * <p></p>
-     */
-    public static Object mnem_advanced
-     
-    /**
-     * <p></p>
-     */
     public static Object passphrase_advanced
      
     /**
      * <p></p>
      */
     public static Object dp_advanced
+     
+    /**
+     * <p></p>
+     */
+    public static Object name_pk
+     
+    /**
+     * <p></p>
+     */
+    public static Object name_mnem
+     
+    /**
+     * <p></p>
+     */
+    public static Object name_XPRV
      
 
     static {
@@ -111,25 +101,23 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
+            app = selectedVariables['app']
             G_Timeout = selectedVariables['G_Timeout']
             G_NotificationMessage = selectedVariables['G_NotificationMessage']
             G_AndroidApp = selectedVariables['G_AndroidApp']
             G_ShortTimeOut = selectedVariables['G_ShortTimeOut']
-            mnem3 = selectedVariables['mnem3']
             mnemonic_dragon = selectedVariables['mnemonic_dragon']
-            mnem12 = selectedVariables['mnem12']
             address_stone = selectedVariables['address_stone']
             privkey_stone = selectedVariables['privkey_stone']
             xpub_dragon = selectedVariables['xpub_dragon']
             xprv_dragon = selectedVariables['xprv_dragon']
             omix_address = selectedVariables['omix_address']
             address_dragon = selectedVariables['address_dragon']
-            mnem6 = selectedVariables['mnem6']
-            mnem9 = selectedVariables['mnem9']
-            app = selectedVariables['app']
-            mnem_advanced = selectedVariables['mnem_advanced']
             passphrase_advanced = selectedVariables['passphrase_advanced']
             dp_advanced = selectedVariables['dp_advanced']
+            name_pk = selectedVariables['name_pk']
+            name_mnem = selectedVariables['name_mnem']
+            name_XPRV = selectedVariables['name_XPRV']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

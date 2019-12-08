@@ -13,17 +13,55 @@
             <runConfigurationData>
                <entry>
                   <key>deviceName</key>
-                  <value>Xiaomi Redmi 4A (Android 7.1.2)</value>
+                  <value>Sony G8441 (Android 9)</value>
                </entry>
                <entry>
                   <key>deviceId</key>
-                  <value>728996657d94</value>
+                  <value>BH907YFW9E</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Main - Import and Unlock wallets</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Main test suite</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>Google Pixel 3 (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>89EX0904A</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Main test suite</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-J730FM (Android 8.1.0)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>52006b56fe68c42d</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Main test suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -42,7 +80,7 @@
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Main - Import and Unlock wallets</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Main test suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

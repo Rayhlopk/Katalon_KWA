@@ -15,37 +15,37 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication(GlobalVariable.app, true)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - SKIP'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - SKIP'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.TextView0 - CREATE NEW WALLET'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.TextView0 - CREATE NEW WALLET'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Onboarding/android.widget.TextView0 - CREATE'), 0)
+Mobile.tap(findTestObject('App/Onboarding/android.widget.TextView0 - CREATE'), 0)
 
-Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - SKIP'), 0)
+Mobile.tap(findTestObject('App/General/button SKIP'), 0)
 
-Mobile.verifyElementExist(findTestObject('Smoke test/General/android.widget.Button0 - SEND'), 0)
+Mobile.verifyElementExist(findTestObject('App/General/android.widget.Button0 - SEND'), 0)
 

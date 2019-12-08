@@ -13,54 +13,54 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('Smoke test/General/MAIN - MY WALLETS'), 0)
+Mobile.tap(findTestObject('App/General/MAIN - MY WALLETS'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - ADD NEW WALLET'), 0)
+Mobile.tap(findTestObject('App/Wallets/ADD NEW WALLET'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - IMPORT'), 0)
+Mobile.tap(findTestObject('App/Wallets/Add new wallet - IMPORT'), 0)
 
-Mobile.tap(findTestObject('Smoke test/General/android.widget.TextView0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('App/General/android.widget.TextView0 - Address key mnemonic'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('App/Wallets/input - Address key mnemonic'), 0)
 
-Mobile.sendKeys(findTestObject('Smoke test/Wallets/(enter)android.widget.EditText0 - Address key mnemonic'), GlobalVariable.mnemonic_dragon)
+Mobile.sendKeys(findTestObject('App/Wallets/input - Address key mnemonic'), GlobalVariable.mnemonic_dragon)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(enter)android.widget.TextView0 - OK'), 0)
+Mobile.tap(findTestObject('App/Wallets/wallet import - OK'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/(finish)android.widget.TextView0 - IMPORT'), 0)
+Mobile.tap(findTestObject('App/Wallets/button - finish IMPORT'), 0)
 
-Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - GO TO WALLET'), 0)
+Mobile.tap(findTestObject('App/General/android.widget.Button0 - GO TO WALLET'), 0)
 
-Mobile.tap(findTestObject('Smoke test/General/MAIN - MY WALLETS'), 0)
+Mobile.tap(findTestObject('App/General/MAIN - MY WALLETS'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/wallet menu'), 0)
+Mobile.tap(findTestObject('App/Wallets/wallet menu'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - Enable multi-address mode'), 0)
+Mobile.tap(findTestObject('App/Wallets/Enable multi-address mode'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.Button0 - ENABLE'), 0)
+Mobile.tap(findTestObject('App/Wallets/button - ENABLE'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/android.widget.TextView0 - ADD NEW ADDRESS'), 0)
+Mobile.tap(findTestObject('App/Wallets/ADD NEW ADDRESS'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/my wallet back button'), 0)
+Mobile.tap(findTestObject('App/Wallets/my wallet back button'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Wallets/my wallets back button'), 0)
+Mobile.tap(findTestObject('App/Wallets/my wallets back button'), 0)
 
-Mobile.tap(findTestObject('Smoke test/General/android.widget.Button0 - SEND'), 0)
+Mobile.tap(findTestObject('App/General/android.widget.Button0 - SEND'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Send/send - asset'), 0)
+Mobile.tap(findTestObject('App/Send/send - asset'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Send/android.widget.TextView0 - Jibrel Network Token'), 0)
+Mobile.tap(findTestObject('App/Send/android.widget.TextView0 - Jibrel Network Token'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Send/send - recipient'), 0)
+Mobile.tap(findTestObject('App/Send/send - recipient'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Send/recipient - My Wallet 1'), 0)
+Mobile.tap(findTestObject('App/Send/recipient - My Wallet 1'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Send/send - amount'), 0)
+Mobile.tap(findTestObject('App/Send/send - amount'), 0)
 
-Mobile.sendKeys(findTestObject('Smoke test/Send/send - amount - paste'), '0.01')
+Mobile.sendKeys(findTestObject('App/Send/send - amount - paste'), '0.01')
 
-Mobile.tap(findTestObject('Smoke test/Send/send button'), 0)
+Mobile.tap(findTestObject('App/Send/send button'), 0)
 
-Mobile.tap(findTestObject('Smoke test/Navigate Back'), 0)
+Mobile.tap(findTestObject('App/General/Navigate Back'), 0)
 
 

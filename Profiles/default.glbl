@@ -6,6 +6,11 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'/Users/polinakhomishina/Downloads/3.3.6-app-release.apk'</initValue>
+      <name>app</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>10</initValue>
       <name>G_Timeout</name>
    </GlobalVariableEntity>
@@ -26,18 +31,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'neither flash lens'</initValue>
-      <name>mnem3</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'dragon mobile shed clump earn sight toilet urge voice topple silent ability execute moon river gas frown chunk dial pistol outside achieve chaos warfare'</initValue>
+      <initValue>'stone topic lobster ten length wood animal brush hero bicycle camp element blouse timber there normal disorder hand poem husband hockey north prison adapt'</initValue>
       <name>mnemonic_dragon</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'remove treat mixed oblige tomorrow pipe thing entire horror short invest find'</initValue>
-      <name>mnem12</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -71,26 +66,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'shiver wrong notable cargo boat powder'</initValue>
-      <name>mnem6</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'trap remind weapon moon hospital family pottery creek grow'</initValue>
-      <name>mnem9</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'/Users/polinakhomishina/Downloads/3.2.1-app-debug.apk'</initValue>
-      <name>app</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'neither flash lens'</initValue>
-      <name>mnem_advanced</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'153153'</initValue>
       <name>passphrase_advanced</name>
    </GlobalVariableEntity>
@@ -98,5 +73,20 @@
       <description></description>
       <initValue>'m/44\'/60\'/1\'/0'</initValue>
       <name>dp_advanced</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Private Key'</initValue>
+      <name>name_pk</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'new_name'</initValue>
+      <name>name_mnem</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'XPRV'</initValue>
+      <name>name_XPRV</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
