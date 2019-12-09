@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Import Mnemonic with 3-24 words</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed7a6a89-0786-43ea-ba77-b1df88598ccc</testCaseGuid>
+   <variable>
+      <defaultValue>'neither flash lens'</defaultValue>
+      <description></description>
+      <id>e400aeae-4c4a-4abb-8ba0-5ecd81751667</id>
+      <masked>false</masked>
+      <name>mnem_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'shiver wrong notable cargo boat powder'</defaultValue>
+      <description></description>
+      <id>f2474a7d-6b6d-4585-b599-fe7eff90ca56</id>
+      <masked>false</masked>
+      <name>mnem_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'trap remind weapon moon hospital family pottery creek grow'</defaultValue>
+      <description></description>
+      <id>37cf2204-513e-4341-98a7-7d185556b392</id>
+      <masked>false</masked>
+      <name>mnem_9</name>
+   </variable>
+   <variable>
+      <defaultValue>'remove treat mixed oblige tomorrow pipe thing entire horror short invest find'</defaultValue>
+      <description></description>
+      <id>5b3b5158-8cc8-40f3-9463-31831496c91a</id>
+      <masked>false</masked>
+      <name>mnem_12</name>
+   </variable>
+   <variable>
+      <defaultValue>'crouch autumn suspect view engine there minor vacuum heavy napkin blouse cradle guitar nature peasant'</defaultValue>
+      <description></description>
+      <id>fac4eb93-545e-45cb-97ac-2b2252839402</id>
+      <masked>false</masked>
+      <name>mnem_15</name>
+   </variable>
+   <variable>
+      <defaultValue>'balcony someone shuffle fire gas arrange child exit muscle seek return certain near sick video diary prevent beyond'</defaultValue>
+      <description></description>
+      <id>3cb4ed36-7b5b-4ebd-acbd-e0c9d4814c98</id>
+      <masked>false</masked>
+      <name>mnem_18</name>
+   </variable>
+   <variable>
+      <defaultValue>'match body castle sting marriage slender hover village nation inhale renew van potato panic spider drift exist canal skill jaguar inject'</defaultValue>
+      <description></description>
+      <id>329fa1d6-3d8d-4e30-95ee-d18bb1bb24db</id>
+      <masked>false</masked>
+      <name>mnem_21</name>
+   </variable>
+   <variable>
+      <defaultValue>'stone topic lobster ten length wood animal brush hero bicycle camp element blouse timber there normal disorder hand poem husband hockey north prison adapt'</defaultValue>
+      <description></description>
+      <id>2db0dc9a-0d1c-48b4-84c1-075c206708d7</id>
+      <masked>false</masked>
+      <name>mnem_24</name>
+   </variable>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Manage Wallet - Backup Private key</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5bb3fb3c-5b41-45e3-b4de-4c1569ec2dde</testCaseGuid>
-</TestCaseEntity>

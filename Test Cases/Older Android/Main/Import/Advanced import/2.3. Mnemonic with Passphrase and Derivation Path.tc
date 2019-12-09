@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2.3. Mnemonic with Passphrase and Derivation Path</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea2c8c90-ddbd-4c53-a71a-0573deba25a4</testCaseGuid>
+   <variable>
+      <defaultValue>'neither flash lens'</defaultValue>
+      <description></description>
+      <id>21ccb6f8-84aa-4111-a54b-538d0f2c50a1</id>
+      <masked>false</masked>
+      <name>mnemonic</name>
+   </variable>
+   <variable>
+      <defaultValue>'153153'</defaultValue>
+      <description></description>
+      <id>cbcce2f7-0210-42fe-a730-047937ecb8df</id>
+      <masked>false</masked>
+      <name>passphrase</name>
+   </variable>
+   <variable>
+      <defaultValue>'m/44\'/60\'/1\'/0'</defaultValue>
+      <description></description>
+      <id>907cad57-5d19-49fa-b987-75603ff605ae</id>
+      <masked>false</masked>
+      <name>derivation_path</name>
+   </variable>
+   <variable>
+      <defaultValue>'0x15dc33A28762d589DF2074fdC661eA21985eCe3c'</defaultValue>
+      <description></description>
+      <id>aca7df04-d48e-486c-afa7-6d16f223e8bc</id>
+      <masked>false</masked>
+      <name>address_mnemonic</name>
+   </variable>
+   <variable>
+      <defaultValue>'0x134918Ec00a84DC1b0E38e0bD1da8F17c4b957d7'</defaultValue>
+      <description></description>
+      <id>72b49db7-b385-4291-a188-dca8cabbf7e0</id>
+      <masked>false</masked>
+      <name>address_passphrase</name>
+   </variable>
+   <variable>
+      <defaultValue>'0x229e8C14ff320d698bE5AE661DB0e07d662228F2'</defaultValue>
+      <description></description>
+      <id>a8546d1e-d9b9-4b02-b9bc-37251db6723e</id>
+      <masked>false</masked>
+      <name>address_derivation</name>
+   </variable>
+   <variable>
+      <defaultValue>'0x30AEF8Ed72059E22A0B30FF7b28aB8b6d25689Ac'</defaultValue>
+      <description></description>
+      <id>b4043b18-2d2d-4459-bb85-d6e0faee8caf</id>
+      <masked>false</masked>
+      <name>address_passphrase_derivation</name>
+   </variable>
+</TestCaseEntity>

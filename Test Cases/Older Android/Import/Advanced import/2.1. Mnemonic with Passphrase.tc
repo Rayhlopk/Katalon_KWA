@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2.1. Mnemonic with Passphrase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca18cf2a-d445-4878-a646-88223797531d</testCaseGuid>
+   <variable>
+      <defaultValue>'neither flash lens'</defaultValue>
+      <description></description>
+      <id>41fdaf7d-cc3c-4973-a166-214b2f62d6de</id>
+      <masked>false</masked>
+      <name>mnemonic</name>
+   </variable>
+   <variable>
+      <defaultValue>'153153'</defaultValue>
+      <description></description>
+      <id>6a6f942e-7a23-4b23-afca-a948656d07a3</id>
+      <masked>false</masked>
+      <name>passphrase</name>
+   </variable>
+   <variable>
+      <defaultValue>'m/44\'/60\'/1\'/0'</defaultValue>
+      <description></description>
+      <id>d47baea0-2864-45be-a4aa-970fb61b0c01</id>
+      <masked>false</masked>
+      <name>derivation_path</name>
+   </variable>
+   <variable>
+      <defaultValue>'0x15dc33A28762d589DF2074fdC661eA21985eCe3c'</defaultValue>
+      <description></description>
+      <id>80e3d424-1acd-4d01-a6b6-759129fd449c</id>
+      <masked>false</masked>
+      <name>address_mnemonic</name>
+   </variable>
+   <variable>
+      <defaultValue>'0x134918Ec00a84DC1b0E38e0bD1da8F17c4b957d7'</defaultValue>
+      <description></description>
+      <id>7b1c9542-32db-46ed-a8de-4f0c7000af79</id>
+      <masked>false</masked>
+      <name>address_passphrase</name>
+   </variable>
+   <variable>
+      <defaultValue>'0x229e8C14ff320d698bE5AE661DB0e07d662228F2'</defaultValue>
+      <description></description>
+      <id>a0fe45c8-968e-4c37-ab75-56cbe82fe388</id>
+      <masked>false</masked>
+      <name>address_derivation</name>
+   </variable>
+   <variable>
+      <defaultValue>'0x30AEF8Ed72059E22A0B30FF7b28aB8b6d25689Ac'</defaultValue>
+      <description></description>
+      <id>e6193ede-fb5e-440f-a125-408fc135d72c</id>
+      <masked>false</masked>
+      <name>address_passphrase_derivation</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2 - Address wallet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7689669-9085-4a26-94c6-2eb8eac70dd6</testCaseGuid>
+   <variable>
+      <defaultValue>'New wallet name'</defaultValue>
+      <description></description>
+      <id>53c7fd3d-645f-4dc9-9a6a-bc05f4de4078</id>
+      <masked>false</masked>
+      <name>new_name</name>
+   </variable>
+</TestCaseEntity>
