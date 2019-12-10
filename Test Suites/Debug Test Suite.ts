@@ -11,219 +11,45 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>6af94000-af2c-4547-8a78-9a4dee6380f2</testSuiteGuid>
    <testCaseLink>
-      <guid>cd581421-083e-4202-a99d-3943dd607154</guid>
+      <guid>ae7b450d-12f2-4e0b-b229-4d9e97dfc1f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main/Wallets workflow/0 - Start</testCaseId>
+      <testCaseId>Test Cases/Android 7, 8, 9, 10/Wallets workflow/0 - Start</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d8ccf1db-1d33-445f-98c9-bb3355ab24bd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Main/Wallets workflow/1 - Address workflow</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>36d18691-2a8a-486f-be8d-8219c4dd77a7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Main/Wallets workflow/2 - Private key workflow</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5e1b216e-c1cd-44dd-9cb3-362750fde0d5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Main/Import/Advanced import/1. Import Mnemonic with 3-24 words</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>af685702-7f02-40c8-9252-3d577b55ee09</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6f001818-26e9-421b-be59-3c6e2eb86cd2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6ba182ef-b417-4c48-8368-ecf851f16136</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>841960c2-e976-4453-bae5-842632a10584</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>467324ec-f2e8-4397-9a86-aadc65c4798a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0375feda-fa4d-41b1-91be-a6e554acdd19</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b233c6f7-a653-43fd-87f8-b97b67195726</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ea153237-8cf6-4379-b8bc-0da24fcc112d</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e72f73d5-16b7-4b1b-b0fb-33a0f2c087fc</guid>
+      <guid>cbe38f94-7896-4da0-83f9-86b96bc35e6d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main/Import/Advanced import/2.1. Mnemonic with Passphrase</testCaseId>
+      <testCaseId>Test Cases/Android 7, 8, 9, 10/Wallets workflow/3 - Mnemonic workflow</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6bcefa89-92b5-4bee-982f-59ecf364d418</variableId>
+         <variableId>bcd882c0-74d8-469c-80be-e441e669842f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>afda2467-bd59-4cbd-8614-dc97176e25da</variableId>
+         <variableId>43b7e493-c1df-4954-8d7a-187f7585c4be</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>06f26327-9dbc-4f7e-9e7c-59750beffc9a</variableId>
+         <variableId>c4d7b6ed-0767-480f-a009-def45eebaa8d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d16b506f-9c5e-4872-b2c2-c6cb578b8545</variableId>
+         <variableId>74473a30-1ef0-4359-b079-2476b385bfa9</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6d2a5194-eecd-4a82-96ba-ce4d371ca8b1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3b652510-d0aa-4f96-8bd2-67afd9ec00ec</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>700a4ac8-920c-4c71-b648-0c964ba1cbe8</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7556e762-1f63-489f-a45a-79a12eba6c82</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Main/Import/Advanced import/2.2. Mnemonic with Derivation Path</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4d10641a-c26f-47b8-be6a-6ebb5abd6dde</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>58abb703-e4c8-49e7-9040-c5f451b716f3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7597b21c-89b8-44bb-9c07-79c13dc4e537</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>77757045-32f4-4edb-908a-2084e7bb416e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cd0f8d5b-12a3-44aa-bee6-c8fe308f6153</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b52441c7-6698-460e-bb4b-a9882480123d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d8b3e3dc-0e5e-4667-afd5-251c7303501c</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2d9d4511-1dbb-40cd-a246-ac5eb0712634</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Main/Import/Advanced import/2.3. Mnemonic with Passphrase and Derivation Path</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8ea08ead-bd73-4691-8298-92c4454e5b8e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>39e52ec0-426d-454b-b746-f066cfcc9ada</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>794ac287-fe59-4d8e-b33a-a7855e901d63</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6a319fb2-5cec-46b4-8373-14ba70c12918</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>82ea897f-1f58-4d43-b2b7-d47352cb5590</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3831c1d4-11e1-4ec6-9807-5c4c69b22e96</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4673b11e-e1c2-4eac-972b-70467f37fa87</variableId>
+         <variableId>14e39ff6-8c59-4baf-9197-67b5f2b41d53</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
