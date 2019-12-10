@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3 - Mnemonic workflow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>133ea9db-9a69-4852-a0f3-a0fc2c8ee191</testCaseGuid>
+   <variable>
+      <defaultValue>'remove treat mixed oblige tomorrow pipe thing entire horror short invest find'</defaultValue>
+      <description></description>
+      <id>bcd882c0-74d8-469c-80be-e441e669842f</id>
+      <masked>false</masked>
+      <name>mnemonic</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mnemonic_edited'</defaultValue>
+      <description></description>
+      <id>43b7e493-c1df-4954-8d7a-187f7585c4be</id>
+      <masked>false</masked>
+      <name>new_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'remove'</defaultValue>
+      <description></description>
+      <id>c4d7b6ed-0767-480f-a009-def45eebaa8d</id>
+      <masked>false</masked>
+      <name>mnemonic_1_word</name>
+   </variable>
+   <variable>
+      <defaultValue>'pipe'</defaultValue>
+      <description></description>
+      <id>74473a30-1ef0-4359-b079-2476b385bfa9</id>
+      <masked>false</masked>
+      <name>mnemonic_6_word</name>
+   </variable>
+   <variable>
+      <defaultValue>'find'</defaultValue>
+      <description></description>
+      <id>14e39ff6-8c59-4baf-9197-67b5f2b41d53</id>
+      <masked>false</masked>
+      <name>mnemonic_12_word</name>
+   </variable>
+</TestCaseEntity>
