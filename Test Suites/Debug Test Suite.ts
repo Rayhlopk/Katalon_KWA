@@ -11,16 +11,64 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>6af94000-af2c-4547-8a78-9a4dee6380f2</testSuiteGuid>
    <testCaseLink>
-      <guid>ae7b450d-12f2-4e0b-b229-4d9e97dfc1f1</guid>
+      <guid>80311b33-48cd-4a73-9ec2-57e175653c56</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android 7, 8, 9, 10/Wallets workflow/0 - Start</testCaseId>
+      <testCaseId>Test Cases/1 - Start</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>cbe38f94-7896-4da0-83f9-86b96bc35e6d</guid>
+      <guid>09d8317d-710f-408c-9036-a84395987b19</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android 7, 8, 9, 10/Wallets workflow/3 - Mnemonic workflow</testCaseId>
+      <testCaseId>Test Cases/Android 7, 8, 9, 10/Wallets/Wallets workflow/1 - Address workflow</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5915d409-3138-40ce-84ef-cbdee16ad5b9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d451accb-d0bf-4520-8784-4aa07fab44d8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4068f11b-7346-4bd2-833c-a0d8ec24cf85</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>be8c3b5d-3141-46fb-9909-d3b50613f275</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3a2a87db-c2b0-4246-b94f-dd1a193365a0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android 7, 8, 9, 10/Wallets/Wallets workflow/2 - Private key workflow</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae76f434-e77d-4f4c-a1c4-49df795aa5c4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>92687ecf-6020-4d71-9a8e-3a7b7bc39680</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a5fef589-ad18-45fc-8b46-44e5232bd423</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android 7, 8, 9, 10/Wallets/Wallets workflow/3 - Mnemonic workflow</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -50,6 +98,66 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>14e39ff6-8c59-4baf-9197-67b5f2b41d53</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ccdeb73-8304-4b0e-bced-342bf214da13</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a18a297e-562d-4ea4-a110-8e7b16c4771a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android 7, 8, 9, 10/Wallets/Wallets workflow/4 - XPRV workflow</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>50311a68-b021-4c47-bd27-25db3afc6394</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8d71c79d-8e69-4fe6-be3d-decff9dc93cc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>638910f5-7c6a-4cd9-a6e3-2b48e9ca9943</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a9e08a0f-d68b-4082-9129-25fb56c28c24</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android 7, 8, 9, 10/Wallets/Wallets workflow/5 - XPUB workflow</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0a2e0267-ad1f-4f33-acaf-7bc0bcdbe58d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d345eec3-c017-4c5d-b790-c5e8cf04f7f5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>de656c92-5a72-4108-a1ea-85f166643ac1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>52b589e9-901e-465b-aee0-aaf46b04daf1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

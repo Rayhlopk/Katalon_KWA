@@ -20,11 +20,11 @@ Mobile.tap(findTestObject('App/General/MAIN - MY WALLETS'), 0)
 
 Mobile.scrollToText('ADD NEW WALLET')
 
-Mobile.tap(findTestObject('App/android 5 - Add new wallet'), 0)
+Mobile.tap(findTestObject('App/General/android 5 - Add new wallet'), 0)
 
 Mobile.tap(findTestObject('App/Wallets/Add new wallet - IMPORT'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.TextView0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('App/General/Address key mnemonic'), 0)
 
 Mobile.tap(findTestObject('App/Wallets/input - Address key mnemonic'), 0)
 
@@ -34,9 +34,9 @@ Mobile.tap(findTestObject('App/Wallets/wallet import - OK'), 0)
 
 Mobile.tap(findTestObject('App/Wallets/button - finish IMPORT'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.Button0 - GO TO WALLET'), 0)
+Mobile.tap(findTestObject('App/General/Button - GO TO WALLET'), 0)
 
-Mobile.verifyElementExist(findTestObject('App/General/android.widget.Button0 - SEND'), 0)
+Mobile.verifyElementExist(findTestObject('App/General/Button - SEND'), 0)
 
 //Rename address wallet
 Mobile.tap(findTestObject('App/General/MAIN - MY WALLETS'), 0)
@@ -60,25 +60,25 @@ Mobile.tap(findTestObject('App/Wallets/Wallet 2 menu'), 0)
 
 Mobile.tap(findTestObject('App/Wallets/Wallet menu - Unlock features'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.Button0 - UNLOCK FEATURES'), 0)
+Mobile.tap(findTestObject('App/General/Button - UNLOCK FEATURES'), 0)
 
-Mobile.sendKeys(findTestObject('App/General/android.widget.EditText0 - Backup phrase'), GlobalVariable.privkey_stone)
+Mobile.sendKeys(findTestObject('App/General/Input - Backup phrase'), GlobalVariable.privkey_stone)
 
-Mobile.tap(findTestObject('App/General/android.widget.TextView0 - UNLOCK'), 0)
+Mobile.tap(findTestObject('App/General/UNLOCK'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.Button0 - GO TO WALLET'), 0)
+Mobile.tap(findTestObject('App/General/Button - GO TO WALLET'), 0)
 
 //Delete address wallet
 Mobile.tap(findTestObject('App/General/MAIN - MY WALLETS'), 0)

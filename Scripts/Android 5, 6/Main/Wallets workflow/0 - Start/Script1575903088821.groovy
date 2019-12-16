@@ -17,29 +17,29 @@ Mobile.startApplication(GlobalVariable.app, true)
 
 Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - SKIP'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
 Mobile.tap(findTestObject('App/Onboarding/android.widget.TextView0 - CREATE NEW WALLET'), 0)
 
@@ -49,5 +49,5 @@ Mobile.verifyElementExist(findTestObject('App/Onboarding/android.widget.TextView
 
 Mobile.tap(findTestObject('App/General/button SKIP'), 0)
 
-Mobile.verifyElementExist(findTestObject('App/General/android.widget.Button0 - SEND'), 0)
+Mobile.verifyElementExist(findTestObject('App/General/Button - SEND'), 0)
 

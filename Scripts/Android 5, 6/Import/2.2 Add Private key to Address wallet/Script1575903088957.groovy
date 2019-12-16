@@ -13,27 +13,27 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('App/General/android.widget.Button0 - SEND'), 0)
+Mobile.tap(findTestObject('App/General/Button - SEND'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.Button0 - UNLOCK FEATURES'), 0)
+Mobile.tap(findTestObject('App/General/Button - UNLOCK FEATURES'), 0)
 
-Mobile.sendKeys(findTestObject('App/General/android.widget.EditText0 - Backup phrase'), GlobalVariable.privkey_stone)
+Mobile.sendKeys(findTestObject('App/General/Input - Backup phrase'), GlobalVariable.privkey_stone)
 
-Mobile.tap(findTestObject('App/General/android.widget.TextView0 - UNLOCK'), 0)
+Mobile.tap(findTestObject('App/General/UNLOCK'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.Button0 - GO TO SEND'), 0)
+Mobile.tap(findTestObject('App/General/Button - GO TO SEND'), 0)
 
 Mobile.tap(findTestObject('App/General/Navigate Back'), 0)
 

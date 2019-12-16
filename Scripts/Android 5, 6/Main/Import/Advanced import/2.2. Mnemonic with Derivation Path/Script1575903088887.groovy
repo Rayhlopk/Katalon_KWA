@@ -24,7 +24,7 @@ Mobile.tap(findTestObject('App/Wallets/ADD NEW WALLET'), 0)
 
 Mobile.tap(findTestObject('App/Wallets/Add new wallet - IMPORT'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.TextView0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('App/General/Address key mnemonic'), 0)
 
 Mobile.tap(findTestObject('App/Wallets/input - Address key mnemonic'), 0)
 
@@ -44,10 +44,10 @@ Mobile.tap(findTestObject('App/Wallets/wallet import - OK'), 0)
 
 Mobile.tap(findTestObject('App/Wallets/button - finish IMPORT'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.Button0 - GO TO WALLET'), 0)
+Mobile.tap(findTestObject('App/General/Button - GO TO WALLET'), 0)
 
 //Check sure that address on Receive screen equals expected
-Mobile.tap(findTestObject('App/General/android.widget.Button0 - RECEIVE'), 0)
+Mobile.tap(findTestObject('App/General/Button - RECEIVE'), 0)
 
 Mobile.verifyElementText(findTestObject('App/Wallets/Receive - your address'), address_derivation)
 

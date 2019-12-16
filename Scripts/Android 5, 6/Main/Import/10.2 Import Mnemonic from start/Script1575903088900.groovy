@@ -17,33 +17,33 @@ Mobile.startApplication(GlobalVariable.app, true)
 
 Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - SKIP'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
-Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - 3'), 0)
+Mobile.tap(findTestObject('App/Onboarding/PIN button - 3'), 0)
 
 Mobile.tap(findTestObject('App/Onboarding/android.widget.Button0 - IMPORT WALLET'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.TextView0 - Address key mnemonic'), 0)
+Mobile.tap(findTestObject('App/General/Address key mnemonic'), 0)
 
 Mobile.tap(findTestObject('App/Wallets/input - Address key mnemonic'), 0)
 
@@ -53,7 +53,7 @@ Mobile.tap(findTestObject('App/Wallets/wallet import - OK'), 0)
 
 Mobile.tap(findTestObject('App/Wallets/button - finish IMPORT'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.Button0 - GO TO WALLET'), 0)
+Mobile.tap(findTestObject('App/General/Button - GO TO WALLET'), 0)
 
-Mobile.verifyElementExist(findTestObject('App/General/android.widget.Button0 - SEND'), 0)
+Mobile.verifyElementExist(findTestObject('App/General/Button - SEND'), 0)
 

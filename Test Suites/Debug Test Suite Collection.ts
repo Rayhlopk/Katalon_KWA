@@ -13,11 +13,11 @@
             <runConfigurationData>
                <entry>
                   <key>deviceName</key>
-                  <value>samsung SM-J120F (Android 5.1.1)</value>
+                  <value>samsung SM-J730FM (Android 8.1.0)</value>
                </entry>
                <entry>
                   <key>deviceId</key>
-                  <value>4200412caab2c49d</value>
+                  <value>52006b56fe68c42d</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>

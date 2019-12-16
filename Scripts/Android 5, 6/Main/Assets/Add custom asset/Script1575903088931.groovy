@@ -15,17 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.scrollToText('MANAGE ASSETS', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('App/General/android.widget.TextView0 - MANAGE ASSETS'), 0)
+Mobile.tap(findTestObject('App/General/MANAGE ASSETS'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.TextView0 - ADD NEW ASSET'), 0)
+Mobile.tap(findTestObject('App/General/ADD NEW ASSET'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.EditText0 - Address'), 0)
+Mobile.tap(findTestObject('App/General/Input - Address'), 0)
 
-Mobile.sendKeys(findTestObject('App/General/android.widget.EditText0 - Address'), GlobalVariable.omix_address)
+Mobile.sendKeys(findTestObject('App/General/Input - Address'), GlobalVariable.omix_address)
 
-Mobile.tap(findTestObject('App/General/android.widget.TextView0 - ADD ASSET'), 0)
+Mobile.tap(findTestObject('App/General/ADD ASSET'), 0)
 
-Mobile.tap(findTestObject('App/General/android.widget.Button0 - VIEW ASSET'), 0)
+Mobile.tap(findTestObject('App/General/Button - VIEW ASSET'), 0)
 
 Mobile.tap(findTestObject('App/General/Navigate Back'), 0)
 
